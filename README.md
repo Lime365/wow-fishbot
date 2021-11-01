@@ -27,9 +27,13 @@ Especially when arriving at a new zone there can be a need to adjust the match t
 How to:
 1. Set game in top left window with desired resolution (1280x720 recommended)
 2. Set your throw key/lure key in the config
-3. Hide UI (not a must but reduces false positives)
-4. Start script
-5. Adjust thresholds if needed
+3.  a) Without mask: Throw bobber and take a screenshot of it where it lands. Place the image in the same directory as the script and set bobber_img=[img name] 
+       in the config (see examples uploaded in repo). Make sure bobber_mask = None
+    b) With mask: You can make your own mask or use one of the 3 provided in the repo. Set bobber_mask='bobber_mask.png' and bobber_img='bobber_template.png'
+       to use the one provided. Read more on template masks here: https://gregorkovalcik.github.io/opencv_contrib/tutorial_template_matching.html
+4. Hide UI (not a must but reduces false positives)
+5. Start script
+6. Adjust thresholds in config if needed
 
 Ideas:
 * Add a keyboard listener to issue commands (pause/start, abort, apply lure off intervall)
