@@ -1,6 +1,7 @@
 # Wow Fishbot by Snacks-Razorgore
 
-The bot uses opencv template matching. This means it searches for an image in an image. Read more here: https://docs.opencv.org/4.5.2/d4/dc6/tutorial_py_template_matching.html
+The bot utilizes opencv template matching. This means it searches for an image in an image. Read more here: https://docs.opencv.org/4.5.2/d4/dc6/tutorial_py_template_matching.html.
+
 It takes a screenshot of your game window and searches for the bobber (template) in it.
 If it finds the bobber it takes a screenshot of that specific area and compares it to a new image every 0.5sec.
 If the difference is to big (assumed fish is hooked) it passes the coordinates to pyAutoGui which moves the mouse and right clicks the bobber
