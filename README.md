@@ -6,7 +6,10 @@ It takes a screenshot of your game window and searches for the bobber (template)
 If it finds the bobber it takes a screenshot of that specific area and compares it to a new image every 0.5sec.
 If the difference is to big (assumed fish is hooked) it passes the coordinates to pyAutoGui which moves the mouse and right clicks the bobber
 
-NOTE:
+Personally i leveled my druid to max fishing (shadowlands) and farmed fish basically every day while at work for months (eventually quit wow). Was pretty sweet not ever having to worry about buff food and made some sweet gold on AH.
+This script only interacts with the OS and not the game itself, besides pressing keystrokes and mouseclicks.
+
+Notes regarding script settings:
 1. RESOLUTION: In theory any should work if you adjust the config but only tested on 1280x720. 
 2. POSITION: It is assumed that the game is in the top left corner
 3. THRESHOLD: If the bot doesn't find the bobber, or is pressing right click too soon/not at all. Play around with the match_threshold and diff_threshold with debugging on.
@@ -40,4 +43,7 @@ Ideas:
 * Train a haar cascade model of the bobber (will drastically increase bobber detection)
 * Shutdown timer (HS and log out after X minutes)
 * Print remaining lure timer
+
+
+https://user-images.githubusercontent.com/60894523/153054490-571a2733-e86d-4264-83f0-b63a2e313248.mp4
 
