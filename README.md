@@ -1,5 +1,9 @@
 # Wow Fishbot by Snacks-Razorgore
 
+Sorry for the poor quality, had to scale down due to github size limit
+https://user-images.githubusercontent.com/60894523/153054490-571a2733-e86d-4264-83f0-b63a2e313248.mp4
+
+
 ## Introduction
 The bot utilizes opencv template matching. This means it searches for an image in an image. Read more here: https://docs.opencv.org/4.5.2/d4/dc6/tutorial_py_template_matching.html.
 
@@ -87,5 +91,4 @@ With a mask you don't have to take a new screenshot whenever you change to a new
 
 Enjoy!
 
-https://user-images.githubusercontent.com/60894523/153054490-571a2733-e86d-4264-83f0-b63a2e313248.mp4
 
