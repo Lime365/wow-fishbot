@@ -1,6 +1,6 @@
 # Wow Fishbot by Snacks-Razorgore
 
-Sorry for the poor quality, had to scale down due to github size limit
+Sorry for the poor quality, had to scale down due to github size limit.
 https://user-images.githubusercontent.com/60894523/153054490-571a2733-e86d-4264-83f0-b63a2e313248.mp4
 
 
