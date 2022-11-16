@@ -71,9 +71,10 @@ Change ´bobber_img´ when you swap to a new spot. ´diff_threshold´ generally 
 7. Change the variable ´bobber_img´ to the file name (E.g "terokkar.png")
 8. Start the script
 9. Monitor for a bit, if it works then congratz. Sit back and relax :)
-10. If it doesn't yield you any fish, first read over the *Game* and *Debugging* section of **Script config** to get an idea of what you need to change. Then check symptom below
+10. If it doesn't yield you any fish, stop the script with Ctrl+C
+11. Read over the *Game* and *Debugging* section of **Script config** to get an idea of what you need to change. Then check symptom below
 - **Problem**: It's re-casting to much
-   - **Solution**: Tweak the ´match_threshold´ variable
+   - **Solution**: Decrease the ´match_threshold´ variable
 
 - **Problem**: It doesn't respond when a fish is on the hook
    - **Solution**: This can depend on 2 things. Either it think it found the bobber while it didn't, and is watching the wrong spot, or the ´diff_threshold´ is to high. To determine which, turn on ´show_match_img´ and see if it draws a rectangle around the bobber. If it does, the threshold is to high. If it draws the rectangle on the wrong spot (i.e not around the bobber), the ´match_threshold´ is too low.
