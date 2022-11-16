@@ -57,7 +57,7 @@ Change ´bobber_img´ when you swap to a new spot. ´diff_threshold´ generally 
 - **diff_threshold**: Rarely needs changing but can be good sometimes, 900 works 9/10 times.
 
 
-### Instructions:
+## Instructions:
 1. Set the game in windowed mode and change resolution to 1280x720 (or the value that you set in ´game_size´)
 2. Move the window to the top left corner of it is in the top left corner of the display
 3. In the action bars bind the cast key to 1, and lure key to 2 (or what you changed the script settings to)
