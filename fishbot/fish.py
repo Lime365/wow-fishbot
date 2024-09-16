@@ -36,7 +36,7 @@ timeouts = 0
 window = {
     "top": int(game_size["height"] * abs(capture_region - 1)),
     "left": 0,
-    "width": 1280,
+    "width": int(game_size["width"]),
     "height": int(game_size["height"] * capture_region),
 }  # Adjust region to config game_size & captuire region
 
